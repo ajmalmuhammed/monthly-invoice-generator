@@ -7,10 +7,22 @@
         "moduleResolution": "node",
         "sourceMap": true,
         "outDir": "build",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            // "*": [
+            //     "*",
+            //     "api/*",
+            //     "api/middlewares/*",
+            //     "api/routes/*",
+            //     "api/controllers/*",
+                
+            //     "api/models/*"
+            // ]
             "*": [
-                "node_modules/*"
+                "node_modules/*",
+                "api/*"
             ]
         }
     },
