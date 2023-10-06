@@ -1,32 +1,24 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "esModuleInterop": true,
-        "target": "es6",
-        "noImplicitAny": true,
-        "moduleResolution": "node",
-        "sourceMap": true,
-        "outDir": "build",
+        "target": "es2016",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "baseUrl": ".",
-        "paths": {
-            // "*": [
-            //     "*",
-            //     "api/*",
-            //     "api/middlewares/*",
-            //     "api/routes/*",
-            //     "api/controllers/*",
-                
-            //     "api/models/*"
-            // ]
-            "*": [
-                "node_modules/*",
-                "api/*"
-            ]
-        }
-    },
-    "include": [
-        "api/**/*"
-    ]
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "forceConsistentCasingInFileNames": true,      
+        "skipLibCheck": true,     
+        // "moduleResolution": "node",
+        // "sourceMap": true,
+        // "outDir": "build",
+        // "baseUrl": ".",
+        // "paths": {
+        //     "*": [
+        //         "node_modules/*",
+        //         "config",
+        //         "api/*",
+        //         "*"
+        //     ]
+        // }        
+    }
 }
