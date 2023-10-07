@@ -1,14 +1,13 @@
-import { Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn } from "typeorm";
+import { Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn } from 'typeorm'
 
 @Entity()
 export default class StandardEntity {
+  @PrimaryGeneratedColumn({ type: 'int', unsigned: true })
+  id: number
 
-    @PrimaryGeneratedColumn({type: 'int', unsigned:true})
-    id : number
+  @CreateDateColumn()
+  createdAt: Date
 
-    @CreateDateColumn()
-    createdAt: Date
-
-    @UpdateDateColumn()
-    updatedAt: Date
+  @UpdateDateColumn()
+  updatedAt: Date
 }
