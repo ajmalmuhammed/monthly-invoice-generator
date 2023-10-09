@@ -7,18 +7,6 @@
         "esModuleInterop": true,
         "noImplicitAny": true,
         "forceConsistentCasingInFileNames": true,      
-        "skipLibCheck": true,     
-        // "moduleResolution": "node",
-        // "sourceMap": true,
-        // "outDir": "build",
-        // "baseUrl": ".",
-        // "paths": {
-        //     "*": [
-        //         "node_modules/*",
-        //         "config",
-        //         "api/*",
-        //         "*"
-        //     ]
-        // }        
+        "skipLibCheck": true,         
     }
 }
